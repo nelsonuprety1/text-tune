@@ -24,7 +24,7 @@
 .main-nav a:hover {
     color: #fff;
     text-decoration: underline;
-    text-decoration-thickness: 10px;
+    text-decoration-thickness: 7px;
     transition: color 0.3s ease-in;
 }
 
