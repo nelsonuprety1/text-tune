@@ -1,6 +1,9 @@
 import React from 'react';
 import './home.css';
 import Hero from './images/hero.svg';
+import Editing from './images/editing.svg';
+import Format from './images/format.svg';
+import Transform from './images/transform.svg';
 
 const Home = () => {
   return (
@@ -16,7 +19,7 @@ const Home = () => {
         <h2>What We Offer</h2>
         <div className="offers">
           <div className="offer">
-            <img className="offer-img" src="" alt="" />
+            <img className="offer-img" src={Editing} alt="" />
             <h3>Text Editing Made Easy</h3>
             <p className="offer-description">
               Our website offers a range of text editing functionalities, from
@@ -27,7 +30,7 @@ const Home = () => {
             </p>
           </div>
           <div className="offer-1">
-            <img className="offer-img" src="" alt="" />
+            <img className="offer-img" src={Format} alt="" />
             <h3>Flexible Text Formatting Options</h3>
             <p className="offer-description">
               With our user-friendly interface, you can easily input your text
@@ -40,7 +43,7 @@ const Home = () => {
             </p>
           </div>
           <div className="offer-2">
-            <img className="offer-img" src="" alt="" />
+            <img className="offer-img" src={Transform} alt="" />
             <h3>Transform Your Writing with Text Tune</h3>
             <p className="offer-description">
               At Text Tune, we understand the importance of well-formatted text.
@@ -52,7 +55,7 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <h2>Start Using Today</h2>
+        <button className="cta-button">Start Using Today</button>
         <p>
           So why wait? Start using Text Tune today and take your writing to the
           next level!
