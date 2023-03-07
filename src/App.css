@@ -6,4 +6,5 @@
   font-family: 'Bai Jamjuree',
     sans-serif;
   background: hsla(211, 100%, 16%, 1);
+  overflow: hidden;
 }
