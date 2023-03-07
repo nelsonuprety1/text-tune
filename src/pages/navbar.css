@@ -37,11 +37,11 @@
 
 .main-nav .title {
     font-size: 2.5rem;
-    color: #5f3dc4;
+    color: hsl(0, 0%, 100%);
 }
 
 .main-nav .title:hover {
-    color: #5f3dc4;
+    color: hsl(0, 0%, 100%);
     text-decoration: none;
 }
 
