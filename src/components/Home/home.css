@@ -1,0 +1,34 @@
+h1,
+h2 {
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 2.5rem;
+}
+
+.hero-img {
+    max-height: 15rem;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+
+.first-tagline {
+    font-style: italic;
+    text-align: center;
+    color: hsla(210, 58%, 69%, 1);
+}
+
+.home-content {
+    padding: 50px;
+    max-width: 400px;
+}
+
+.home-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: hsla(210, 58%, 69%, 1);
+}
