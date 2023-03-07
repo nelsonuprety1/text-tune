@@ -4,10 +4,12 @@ import Hero from './images/hero.svg';
 import Editing from './images/editing.svg';
 import Format from './images/format.svg';
 import Transform from './images/transform.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
     <div className="home-hero">
+      {/* Hero section */}
       <header>
         <img src={Hero} alt="heroImage" className="hero-img" />
         <h1>Welcome to Text Tune</h1>
@@ -15,6 +17,7 @@ const Home = () => {
           Your ultimate solution for all your text formatting needs!
         </p>
       </header>
+      {/* Content section */}
       <main className="home-content">
         <h2>What We Offer</h2>
         <div className="offers">
@@ -55,12 +58,30 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <button className="cta-button">Start Using Today</button>
+        <button className="cta-button">
+          <Link to="/convert">Start Using Today</Link>
+        </button>
         <p>
           So why wait? Start using Text Tune today and take your writing to the
           next level!
         </p>
       </main>
+      {/* footer section */}
+      <footer className="footer">
+        <div className="footer-container">
+          <p className="footer-text">© 2023 Text Tune. All rights reserved.</p>
+          <p className="created-by">
+            Created by
+            <a
+              href="https://www.linkedin.com/in/nelson-uprety-951a2b156/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Nelson Uprety
+            </a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 };

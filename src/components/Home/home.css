@@ -1,3 +1,4 @@
+/* Global Styles */
 :root {
     --primary-font-color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     --content-color: hsla(210, 58%, 69%, 1);
@@ -5,6 +6,8 @@
     --color-black-blue: hsl(239, 90%, 11%);
     --button-color: linear-gradient(319deg, #ff794f, #ffd90f);
 }
+
+/*----------Hero Section----------- */
 
 h1,
 h2 {
@@ -32,6 +35,8 @@ h2 {
     color: var(--content-color);
     padding: 10px;
 }
+
+/*-----------Content Section----------- */
 
 h2 {
     margin-bottom: 50px;
@@ -82,9 +87,13 @@ h3 {
     border-radius: 5px;
     font-weight: 700;
     font-size: 1.5rem;
-    color: var(--color-white);
     cursor: pointer;
-    transition: transform 0.6s cubic-bezier(0.5, 0, 0.75, 0);
+    transition: transform 0.3s cubic-bezier(0.5, 0, 0.75, 0);
+}
+
+.cta-button a {
+    color: var(--color-white);
+    text-decoration: none;
 }
 
 .cta-button:hover {
@@ -103,6 +112,26 @@ h3 {
     transition: 0.3s ease-in;
 }
 
+.footer-container p {
+    color: var(--content-color);
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.footer-container a {
+    color: var(--content-color);
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.footer-container a:hover {
+    color: hsl(225, 50%, 46%);
+}
+
+/* Media queries for Hero and Content section */
+/* Desktop design queries */
 @media screen and (min-width: 768px) {
 
     .hero-img {
