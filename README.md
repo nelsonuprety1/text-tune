@@ -10,14 +10,17 @@ To get started, clone the repository and install the necessary dependencies usin
 git clone https://github.com/your-username/text-converter.git
 cd text-converter
 npm install
+```
 
-Running the App
+## Running the App
 To run the app locally, use the following command:
+
 ```bash
 npm start
+```
 
-Usage
+## Usage
 To use the text converter, simply enter your text in the input box and select the desired conversion option. The converted text will be displayed in the input box below. You can also copy the converted text to the clipboard by clicking the "Copy to Clipboard" button.
 
-Contributing
+## Contributing
 Contributions are welcome! If you find any bugs or have suggestions for new features, please open an issue or submit a pull request.
