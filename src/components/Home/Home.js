@@ -5,6 +5,7 @@ import Editing from './images/editing.svg';
 import Format from './images/format.svg';
 import Transform from './images/transform.svg';
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const Home = () => {
   return (
@@ -67,21 +68,7 @@ const Home = () => {
         </p>
       </main>
       {/* footer section */}
-      <footer className="footer">
-        <div className="footer-container">
-          <p className="footer-text">© 2023 Text Tune. All rights reserved.</p>
-          <p className="created-by">
-            Created by
-            <a
-              href="https://www.linkedin.com/in/nelson-uprety-951a2b156/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Nelson Uprety
-            </a>
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 };
