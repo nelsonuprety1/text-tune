@@ -1,6 +1,7 @@
 import './converter.css';
 
 import React, { useState, useEffect, useRef } from 'react';
+import Footer from '../Footer/Footer';
 
 const Converter = () => {
   // declaring a state variable textContent and a setTextContent function to manage the state of the text content.
@@ -171,6 +172,7 @@ This function updates the textContent
           Clear
         </button>
       </div>
+      <Footer />
     </div>
   );
 };
