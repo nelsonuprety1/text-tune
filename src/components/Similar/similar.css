@@ -10,6 +10,7 @@
     width: 100%;
     max-width: 390px;
     margin: 0;
+    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .main-heading {
@@ -18,7 +19,6 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .contents {
@@ -26,23 +26,18 @@
     text-align: center;
     margin: 20px;
     font-size: 0.9rem;
-    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
 }
 
 .content-box {
     background-color: var(--color-black-blue);
-    /* margin: 20px; */
     margin-left: 20px;
     padding: 15px 0;
-
 }
 
-
 label {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-weight: 700;
     color: var(--content-color);
-    /* padding: 2rem; */
     margin-left: 30px;
 }
 
@@ -82,19 +77,24 @@ label {
     max-width: 300px;
     resize: vertical;
     font: inherit;
+    font-weight: 700;
+    font-size: 1.3rem;
     min-height: 35vh;
     margin-left: 29px;
     margin-bottom: 20px;
+    margin-top: 40px;
     border: 0;
     border-top: 4px solid hsla(210, 58%, 69%, 1);
     outline: none;
-    transition: transform 0.6s cubic-bezier(0.5, 1, 0.89, 1);
+    transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+    background-color: #e5dbff;
 }
 
 @media screen and (min-width:768px) {
     .similar-content {
         width: 100%;
-        max-width: 1440px;
+        max-width: 1000px;
+        margin-left: 250px;
     }
 
     .main-heading {
@@ -106,4 +106,36 @@ label {
         font-size: 1.5rem;
     }
 
+    .content-box {
+        margin-top: 50px;
+    }
+
+    label {
+        display: block;
+        font-size: 1.8rem;
+    }
+
+    #similarity {
+        width: 100%;
+        max-width: 570px;
+        height: 50px;
+        font-family: inherit;
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    .buttons .btns {
+        margin-left: 30px;
+    }
+
+    .textbox {
+        margin-left: 100px;
+    }
+
+    #similarbox {
+        width: 100%;
+        max-width: 700px;
+        font-family: inherit;
+        font-size: 1.5rem;
+    }
 }

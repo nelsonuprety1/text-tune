@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import './similar.css';
 const Similar = () => {
   return (
@@ -20,6 +21,7 @@ const Similar = () => {
       <div className="textbox">
         <textarea name="similarbox" id="similarbox" readOnly></textarea>
       </div>
+      <Footer />
     </div>
   );
 };
