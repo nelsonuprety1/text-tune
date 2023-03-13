@@ -90,6 +90,18 @@ label {
     background-color: #e5dbff;
 }
 
+.thanks p {
+    color: var(--content-color);
+    text-align: center;
+}
+
+.thanks p a {
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-left: 10px;
+}
+
 @media screen and (min-width:768px) {
     .similar-content {
         width: 100%;
